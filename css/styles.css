@@ -1,0 +1,43 @@
+.navbar-light .navbar-brand ,
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link{
+    color: white;
+}
+.sign{
+    width: 30%;
+    margin: 20px auto;
+}
+.sign .btn-primary {
+    width: 50%;
+}
+.sign input{
+    margin-bottom: 10px ;
+}
+.sign h3{
+    background-color:#0c5460;
+    color: white;
+    padding: 5px;
+    font-family:Italic;
+
+
+}
+.form-group{
+    width: 50%;
+    margin: auto;
+}
+.btn-primary{
+    display: block;
+    margin: 10px auto;
+    width: 20%;
+    border-radius: 50px ;
+}
+.main-table tr:first-child td{
+    background-color:#686667;
+    color: white;
+}
+.main-table .btn {
+    display:inline-block;
+}

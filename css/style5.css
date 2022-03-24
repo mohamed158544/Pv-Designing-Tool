@@ -1,0 +1,85 @@
+:root{
+--main-color: #ff793f ; 
+--white : #f7f1e3; 
+--black : #1e272e; 
+--babt-blue: #0fbcf9; 
+--default-font-size: 10px; 
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* start nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    border-top: 4px solid var(--main-color);
+}
+
+nav .logo img {
+    height: 10vh;
+}
+
+nav .menu{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+nav .menu li{
+    list-style: none;
+}
+nav .menu li a{
+color: var(--black);
+text-decoration: none;
+text-transform: uppercase;
+}
+
+nav .menu li a:hover {
+    transition: all 0.5s ease-in-out;
+    font-weight: bold;
+}
+
+/* end nav */
+
+
+/* start slider */
+
+.slider {
+    background-image: url( "..//PHP\ 61/img/ivan-cortez-c9aGBqkeoE4-unsplash.jpg" );
+height: 80vh;
+background-size: 100% 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.slider .caption
+{
+    background-color: var(--black);
+    color: var(--white);
+    border-left: 4px solid var(--main-color);
+    width: 30%;
+}
+/* end slider */
+
+/* start about */
+.about 
+{
+    color: var(--black);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 2% auto;
+}
+
+.about p{
+    width: 50%;
+}
+
+/* end about */
+
